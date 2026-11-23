@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>André Tessaro | Futuro Desenvolvedor</title>
+  <meta name="description" content="Site pessoal de André Ricardo Tessaro Filho: trajetória, objetivos e futuro na área de Análise e Desenvolvimento de Sistemas.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="nav">
+    <a href="#inicio" class="logo">&lt;André<span>/</span>&gt;</a>
+    <button class="menu-btn" id="menuBtn" aria-label="Abrir menu" aria-expanded="false">☰</button>
+    <nav id="menu">
+      <a href="#inicio">Início</a>
+      <a href="#sonho">Meu sonho</a>
+      <a href="#trajetoria">Trajetória</a>
+      <a href="#profissao">Profissão</a>
+      <a href="#objetivos">Objetivos</a>
+      <a href="#habilidades">Habilidades</a>
+      <a href="#tecnologia">Tecnologia</a>
+      <button id="themeBtn" class="theme-btn" aria-label="Alternar tema claro e escuro">🌙</button>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- 1. APRESENTAÇÃO -->
+    <section id="inicio" class="hero">
+      <div class="hero-text">
+        <p class="eyebrow">&gt; Olá, mundo! Eu sou</p>
+        <h1>André Ricardo<br>Tessaro Filho</h1>
+        <p class="typing"><span id="typed"></span><span class="cursor">|</span></p>
+        <p class="lead">
+          Tenho 17 anos e sou apaixonado por tecnologia e pelo desafio de aprender coisas novas.
+          Estou me preparando, com planejamento e disciplina, para construir uma carreira sólida
+          em desenvolvimento de sistemas. Mas o meu verdadeiro sonho é ser lutador de jiu-jitsu, e é por isso que eu treino, me disciplino e planejo cada passo.
+        </p>
+        <div class="hero-btns">
+          <a href="#objetivos" class="btn">Ver meus objetivos</a>
+          <a href="#trajetoria" class="btn ghost">Minha trajetória</a>
+        </div>
+      </div>
+      <div class="terminal" aria-hidden="true">
+        <div class="terminal-bar"><i></i><i></i><i></i></div>
+        <pre><code><span class="k">const</span> andre = {
+  <span class="p">nome</span>: <span class="s">"André Tessaro"</span>,
+  <span class="p">idade</span>: <span class="n">17</span>,
+  <span class="p">curso</span>: <span class="s">"Desenvolvimento de Sistemas"</span>,
+  <span class="p">meta</span>: <span class="s">"Faculdade de ADS"</span>,
+  <span class="p">sonho</span>: <span class="s">"Lutador de jiu-jitsu"</span>,
+  <span class="p">status</span>: <span class="s">"em evolução 🚀"</span>
+};</code></pre>
+      </div>
+    </section>
+
+    <!-- MEU SONHO -->
+    <section id="sonho" class="section reveal dream">
+      <h2>🥋 Meu grande sonho</h2>
+      <p class="sub">O que realmente me move.</p>
+      <div class="panel wide">
+        <p>
+          Meu verdadeiro sonho é <strong>ser lutador de jiu-jitsu</strong>. O tatame me ensinou a lidar com a pressão,
+          a respeitar o adversário, a levantar depois de cada queda e a evoluir um pouco a cada treino.
+        </p>
+        <p>
+          Quero treinar com seriedade e competir. Por isso também estudo e me preparo na tecnologia:
+          a carreira em ADS vai me dar estabilidade para correr atrás desse sonho sem abrir mão do futuro.
+          Para mim, a luta e a profissão se completam, porque as duas exigem a mesma disciplina e persistência.
+        </p>
+      </div>
+    </section>
+
+    <!-- 2. TRAJETÓRIA ACADÊMICA -->
+    <section id="trajetoria" class="section reveal">
+      <h2>Trajetória acadêmica</h2>
+      <p class="sub">Onde estou hoje e o que já aprendi no caminho.</p>
+      <div class="grid two">
+        <div class="panel">
+          <h3>📚 Formação atual</h3>
+          <p>Estou cursando <strong>Desenvolvimento de Sistemas</strong>, curso que me deu a base prática para entrar no mundo da programação e me mostrou que esse é o caminho que quero seguir.</p>
+        </div>
+        <div class="panel">
+          <h3>🧠 O que aprendi</h3>
+          <ul class="checks">
+            <li>Criação de páginas com HTML, CSS e JavaScript</li>
+            <li>Interfaces responsivas com Bootstrap</li>
+            <li>Consumo de APIs e recursos modernos da web, como notificações e Service Worker</li>
+            <li>Modelagem e uso de banco de dados com SQL</li>
+            <li>Projetos práticos, de sistemas de agendamento a um jogo 3D</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. PROFISSÃO DESEJADA -->
+    <section id="profissao" class="section reveal">
+      <h2>Profissão desejada</h2>
+      <p class="sub">Analista e desenvolvedor de sistemas.</p>
+      <div class="panel wide">
+        <p>
+          Quero atuar como <strong>desenvolvedor de sistemas</strong>, criando soluções que facilitem a vida das pessoas e
+          ajudem empresas a funcionar melhor. Escolhi essa carreira porque gosto de resolver problemas,
+          ver uma ideia virar algo que funciona e saber que sempre há algo novo para aprender.
+        </p>
+        <p>
+          É uma área com muitas oportunidades, que valoriza quem estuda e pratica, e permite crescer
+          a partir do próprio esforço. Para isso, pretendo cursar <strong>Análise e Desenvolvimento de Sistemas (ADS)</strong>.
+          Essa carreira também me dá a base e a estabilidade para seguir o meu maior sonho: ser lutador de jiu-jitsu.
+        </p>
+      </div>
+    </section>
+
+    <!-- 4. OBJETIVOS PROFISSIONAIS (timeline interativa) -->
+    <section id="objetivos" class="section reveal">
+      <h2>Objetivos profissionais</h2>
+      <p class="sub">Clique em cada etapa para ver o plano em detalhes.</p>
+
+      <div class="tl-tabs" role="tablist">
+        <button class="tl-tab active" role="tab" data-target="t0">Agora</button>
+        <button class="tl-tab" role="tab" data-target="t1">2027</button>
+        <button class="tl-tab" role="tab" data-target="t2">2028</button>
+        <button class="tl-tab" role="tab" data-target="t3">Depois</button>
+      </div>
+
+      <div class="tl-content">
+        <article class="tl-panel active" id="t0">
+          <h3>Concluir esta etapa com qualidade</h3>
+          <p>Aproveitar ao máximo o curso, praticar com projetos reais e construir uma boa base técnica para os próximos passos.</p>
+        </article>
+        <article class="tl-panel" id="t1">
+          <h3>Ano de preparação</h3>
+          <ul class="checks">
+            <li>Trabalhar para ganhar experiência e juntar dinheiro</li>
+            <li>Fazer diversos cursos para fortalecer o currículo</li>
+            <li>Treinar forte e competir no jiu-jitsu, o primeiro passo rumo ao meu sonho de ser lutador</li>
+            <li>Me organizar para entrar na faculdade com mais estabilidade</li>
+          </ul>
+        </article>
+        <article class="tl-panel" id="t2">
+          <h3>Ingressar na faculdade de ADS</h3>
+          <p>Escolhi esperar um ano porque a distância até a faculdade pesa na decisão. Com o planejamento feito, posso me dedicar ao curso com mais tranquilidade e aproveitar de verdade.</p>
+        </article>
+        <article class="tl-panel" id="t3">
+          <h3>Carreira na tecnologia</h3>
+          <p>Conquistar uma vaga na área, continuar estudando e evoluir como profissional, sempre aprendendo novas tecnologias, e seguir lutando pelo meu sonho no tatame.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- 5. HABILIDADES E INTERESSES -->
+    <section id="habilidades" class="section reveal">
+      <h2>Habilidades e interesses</h2>
+      <p class="sub">O que sei fazer e o que me move.</p>
+
+      <h3 class="mini">Habilidades técnicas</h3>
+      <div class="skills">
+        <div class="skill"><span>HTML</span><div class="bar"><i data-level="85"></i></div></div>
+        <div class="skill"><span>CSS</span><div class="bar"><i data-level="80"></i></div></div>
+        <div class="skill"><span>JavaScript</span><div class="bar"><i data-level="70"></i></div></div>
+        <div class="skill"><span>Banco de dados (SQL)</span><div class="bar"><i data-level="60"></i></div></div>
+        <div class="skill"><span>Bootstrap</span><div class="bar"><i data-level="75"></i></div></div>
+      </div>
+
+      <h3 class="mini">Competências pessoais</h3>
+      <div class="tags">
+        <span>Disciplina</span><span>Persistência</span><span>Planejamento</span>
+        <span>Foco</span><span>Vontade de aprender</span><span>Resiliência</span>
+      </div>
+
+      <h3 class="mini">Interesses</h3>
+      <div class="cards">
+        <div class="card"><div class="icon">💻</div><h4>Programação</h4><p>Criar sites e sistemas e entender como as coisas funcionam por dentro.</p></div>
+        <div class="card"><div class="icon">🥋</div><h4>Jiu-jitsu</h4><p>Meu maior sonho: ser lutador. Treino e me preparo para competir.</p></div>
+        <div class="card"><div class="icon">🎮</div><h4>Jogos</h4><p>Gosto de entender e criar jogos, como o simulador 3D que desenvolvi.</p></div>
+        <div class="card"><div class="icon">📈</div><h4>Cursos</h4><p>Estudar sempre algo novo para evoluir no currículo e no conhecimento.</p></div>
+      </div>
+    </section>
+
+    <!-- 6. TECNOLOGIA NA PROFISSÃO (cartões expansíveis) -->
+    <section id="tecnologia" class="section reveal">
+      <h2>Tecnologia na profissão</h2>
+      <p class="sub">Como a tecnologia transforma o trabalho e a vida. Clique nos cartões.</p>
+
+      <div class="accordion">
+        <div class="acc-item">
+          <button class="acc-head" aria-expanded="false">Criando soluções <span>+</span></button>
+          <div class="acc-body"><p>Na minha profissão, a tecnologia é a própria ferramenta: com código, transformo problemas do dia a dia em sistemas que funcionam, como agendamentos, cadastros e aplicativos.</p></div>
+        </div>
+        <div class="acc-item">
+          <button class="acc-head" aria-expanded="false">Automação e produtividade <span>+</span></button>
+          <div class="acc-body"><p>Tarefas repetitivas podem ser automatizadas, economizando tempo e reduzindo erros. Isso ajuda empresas de qualquer área a trabalhar melhor.</p></div>
+        </div>
+        <div class="acc-item">
+          <button class="acc-head" aria-expanded="false">Dados e decisões <span>+</span></button>
+          <div class="acc-body"><p>Bancos de dados organizam informações e permitem decisões mais seguras, algo útil na saúde, no direito, na engenharia, no esporte e em qualquer outro setor.</p></div>
+        </div>
+        <div class="acc-item">
+          <button class="acc-head" aria-expanded="false">Presença digital <span>+</span></button>
+          <div class="acc-body"><p>Sites, aplicativos e redes aproximam pessoas e negócios. Mesmo para um atleta, a tecnologia ajuda a divulgar resultados e analisar o próprio desempenho.</p></div>
+        </div>
+        <div class="acc-item">
+          <button class="acc-head" aria-expanded="false">Aprendizado constante <span>+</span></button>
+          <div class="acc-body"><p>A tecnologia muda rápido, e isso me motiva: estudar sempre é parte da carreira que escolhi.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section reveal quote">
+      <blockquote>“Quem planeja com calma e estuda com constância chega mais longe do que quem corre sem direção.”</blockquote>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© <span id="ano"></span> André Ricardo Tessaro Filho · Feito com HTML, CSS e JavaScript</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
